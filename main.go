@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com//fzdy-zz/proxypool/pkg/geoIp"
+	"github.com/fzdy-zz/proxypool/pkg/geoIp"
 	_ "net/http/pprof"
 	"os"
 
