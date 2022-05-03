@@ -7,10 +7,10 @@ import (
 	"os"
 
 	"github.com/fzdy-zz/proxypool/api"
-	"github.com//fzdy-zz/proxypool/internal/app"
-	"github.com//fzdy-zz/proxypool/internal/cron"
-	"github.com//fzdy-zz/proxypool/internal/database"
-	"github.com//fzdy-zz/proxypool/log"
+	"github.com/fzdy-zz/proxypool/internal/app"
+	"github.com/fzdy-zz/proxypool/internal/cron"
+	"github.com/fzdy-zz/proxypool/internal/database"
+	"github.com/fzdy-zz/proxypool/log"
 )
 
 var configFilePath = ""
