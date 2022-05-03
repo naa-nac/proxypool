@@ -3,7 +3,7 @@ package healthcheck
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Sansui233/proxypool/pkg/proxy"
+	"github.com/fzdy-zz/proxypool/pkg/proxy"
 	"sync"
 	"time"
 
@@ -101,7 +101,7 @@ func testDelay(p proxy.Proxy) (delay uint16, err error) {
 	}
 
 	sTime := time.Now()
-	err = HTTPHeadViaProxy(clashProxy, "http://www.gstatic.com/generate_204")
+	err = HTTPHeadViaProxy(clashProxy, "https://www.youtube.com/generate_204")
 	if err != nil {
 		return 0, err
 	}
