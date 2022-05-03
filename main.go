@@ -2,15 +2,15 @@ package main
 
 import (
 	"flag"
-	"github.com/Sansui233/proxypool/pkg/geoIp"
+	"github.com//fzdy-zz/proxypool/pkg/geoIp"
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/Sansui233/proxypool/api"
-	"github.com/Sansui233/proxypool/internal/app"
-	"github.com/Sansui233/proxypool/internal/cron"
-	"github.com/Sansui233/proxypool/internal/database"
-	"github.com/Sansui233/proxypool/log"
+	"github.com//fzdy-zz/proxypool/api"
+	"github.com//fzdy-zz/proxypool/internal/app"
+	"github.com//fzdy-zz/proxypool/internal/cron"
+	"github.com//fzdy-zz/proxypool/internal/database"
+	"github.com//fzdy-zz/proxypool/log"
 )
 
 var configFilePath = ""
