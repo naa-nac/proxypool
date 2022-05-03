@@ -45,4 +45,4 @@ require (
 	gorm.io/driver/postgres v1.0.5
 	gorm.io/gorm v1.20.7
 )
-replace github.com/Sansui233/proxypool => github.com/fzdy-zz/proxypool
+replace github.com/Sansui233/proxypool => github.com/fzdy-zz/proxypool v0.6.0
