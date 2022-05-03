@@ -6,7 +6,7 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com//fzdy-zz/proxypool/api"
+	"github.com/fzdy-zz/proxypool/api"
 	"github.com//fzdy-zz/proxypool/internal/app"
 	"github.com//fzdy-zz/proxypool/internal/cron"
 	"github.com//fzdy-zz/proxypool/internal/database"
