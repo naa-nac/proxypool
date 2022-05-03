@@ -1,11 +1,11 @@
 // +heroku goVersion go1.14
 
-module github.com/Sansui233/proxypool
+module github.com/fzdy-zz/proxypool/
 
 go 1.15
 
 require (
-	github.com/Dreamacro/clash v1.3.0
+	github.com/Dreamacro/clash v1.10.0
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect
 	github.com/andybalholm/cascadia v1.2.0 // indirect
 	github.com/antchfx/htmlquery v1.2.3 // indirect
