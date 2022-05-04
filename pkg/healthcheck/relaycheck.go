@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Dreamacro/clash/adapters/outbound"
+	"github.com/Dreamacro/clash/adapter"
 	"github.com/fzdy-zz/proxypool/log"
 	"github.com/fzdy-zz/proxypool/pkg/proxy"
 	"github.com/ivpusic/grpool"
@@ -83,7 +83,7 @@ func testRelay(p proxy.Proxy) (outip string, err error) {
 		}
 	}
 
-	clashProxy, err := outbound.ParseProxy(pmap)
+	clashProxy, err := adapter.ParseProxy(pmap)
 	if err != nil {
 		return "", err
 	}

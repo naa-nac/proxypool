@@ -9,7 +9,7 @@ import (
 
 	"github.com/ivpusic/grpool"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
+	"github.com/Dreamacro/clash/adapter"
 )
 
 const defaultURLTestTimeout = time.Second * 5
@@ -94,7 +94,7 @@ func testDelay(p proxy.Proxy) (delay uint16, err error) {
 		}
 	}
 
-	clashProxy, err := outbound.ParseProxy(pmap)
+	clashProxy, err := adapter.ParseProxy(pmap)
 	if err != nil {
 		fmt.Println(err.Error())
 		return 0, err
